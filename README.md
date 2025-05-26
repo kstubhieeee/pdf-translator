@@ -23,15 +23,18 @@ A web-based application that converts Spanish PDF documents to English using PDF
 
 1. Clone the repository or download the source code:
 ```bash
-git clone [repository-url]
+git clone https://github.com/kstubhieeee/pdf-translator
+```
+```bash
 cd pdf-translator
 ```
 
 2. Create required directories:
 ```bash
 mkdir uploads
+```
+```bash
 mkdir downloads
-chmod 755 uploads downloads
 ```
 
 3. Configure API keys:
@@ -110,9 +113,7 @@ The application includes comprehensive error handling for:
    - Verify file permissions
    - Ensure sufficient disk space
 
-## License
 
-[Specify your license information here]
 
 ## Support
 
